@@ -1,31 +1,28 @@
 [
   {
-    "Version": "1.0.1",
-    "DateTime": "2020-06-25T11:13:56",
+    "Version": "1.0.2",
+    "DateTime": "2020-08-14T04:23:33+02:00",
     "Changes": [
       {
-        "Summary": "Migration from TBS",
-        "Sha": "c863d5280b6c78d5b4b48eee9d600ae5029604a7"
-      },
+        "Type": "feat",
+        "Summary": "Bag and preferred storage",
+        "Sha": "7ee5b4b3493be6f8c28d562277a111ef1c091d54"
+      }
+    ]
+  },
+  {
+    "Version": "1.0.1",
+    "DateTime": "2020-06-25T11:13:56+02:00",
+    "Changes": [
       {
         "Type": "feat",
         "Summary": "Disposable FileSystem",
         "Sha": "2389ecfbb48028af4781b41208a7e9efcccf4dc4"
       },
       {
-        "Type": "docs",
-        "Summary": "First version",
-        "Sha": "d1897802c8e8759ccdf6e754f1a364c4d94b25b9"
-      },
-      {
         "Type": "feat",
         "Summary": "Added Local to FileSystem",
         "Sha": "08e0982c679abe91200c6cc0611842e91e4265de"
-      },
-      {
-        "Type": "test",
-        "Summary": "First version",
-        "Sha": "8c826404f8b1491f902dff9037ddc23a8d3172b6"
       },
       {
         "Type": "feat",
@@ -38,35 +35,9 @@
         "Sha": "ea35f4e7d984622d632fdcbb852213230df2fc39"
       },
       {
-        "Type": "chore",
-        "Summary": "Update to TagBites.UI 1.0.0-preview6",
-        "Sha": "3de65f4ea471817c1473e5609b820ccf1d0a3692"
-      },
-      {
-        "Type": "chore",
-        "Summary": "Remove local package folder on build",
-        "Sha": "085fa7131e72df7ec1c9c055b3fec1801b2d673d"
-      },
-      {
         "Type": "feat",
         "Summary": "Ignored paths for synch",
         "Sha": "82a2c4736837a553a230facdbd4a7343a16c2ac1"
-      },
-      {
-        "Type": "refactor",
-        "Summary": "Move virtual explorer to UI",
-        "Sha": "5bb782a73889dff5f1728177052ee0e649be1ee8"
-      }
-    ]
-  },
-  {
-    "Version": "1.0.2",
-    "DateTime": "2020-08-14T04:23:33",
-    "Changes": [
-      {
-        "Type": "feat",
-        "Summary": "Bag and preferred storage",
-        "Sha": "7ee5b4b3493be6f8c28d562277a111ef1c091d54"
       }
     ]
   }
