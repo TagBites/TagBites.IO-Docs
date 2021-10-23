@@ -1,5 +1,37 @@
 [
   {
+    "Version": "1.1.0",
+    "DateTime": "2021-10-23T22:18:00+02:00",
+    "Changes": [
+      {
+        "Type": "feat",
+        "Summary": "method to create new file with exception when it exists",
+        "Sha": "7aff2732a49dddb8fffc836bc8a3cb675fb8ea87"
+      },
+      {
+        "Type": "feat",
+        "Summary": "methods to read all bytes",
+        "Sha": "e04de4f74acccc2e0ccb095a977b64124f1b527f"
+      }
+    ]
+  },
+  {
+    "Version": "1.0.3",
+    "DateTime": "2021-07-23T01:29:10+02:00",
+    "Changes": [
+      {
+        "Type": "feat",
+        "Summary": "asynchronous operations wrappers",
+        "Sha": "7a6eab0d43cd146b4a0662da485cea1bce37a0e9"
+      },
+      {
+        "Type": "feat",
+        "Summary": "metadata support information",
+        "Sha": "9b4f05ee0c71e385bb9f20043f7fd328406521ea"
+      }
+    ]
+  },
+  {
     "Version": "1.0.2",
     "DateTime": "2020-08-14T04:23:33+02:00",
     "Changes": [
