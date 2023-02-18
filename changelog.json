@@ -1,5 +1,42 @@
 [
   {
+    "Version": "1.2.0",
+    "DateTime": "2023-02-16T18:36:31+01:00",
+    "Changes": [
+      {
+        "Type": "feat",
+        "Summary": "async refresh and get link/file/directory",
+        "Sha": "2afc377bbc83877f82297c54b7008a8016c76ffa"
+      },
+      {
+        "Type": "feat",
+        "Summary": "async get link/file/directory for directory",
+        "Sha": "e2e01337b59288258071dddf466ed83e67f96bba"
+      },
+      {
+        "Type": "feat",
+        "Summary": "load info in async operations",
+        "Sha": "1b71bd7681dec03b5dbba5fc4dbf0ef31d4aa5dd"
+      },
+      {
+        "Type": "feat",
+        "Summary": "virtual file system",
+        "Sha": "f6c3a6da9706e55c6c24901caf9297cee173c73e"
+      }
+    ]
+  },
+  {
+    "Version": "1.1.1",
+    "DateTime": "2023-01-14T19:25:32+01:00",
+    "Changes": [
+      {
+        "Type": "fix",
+        "Summary": "async methods without ConfigureAwait(false)",
+        "Sha": "10019ba7b609847c0752a0389bbe0255a65517f7"
+      }
+    ]
+  },
+  {
     "Version": "1.1.0",
     "DateTime": "2021-10-23T22:18:00+02:00",
     "Changes": [
