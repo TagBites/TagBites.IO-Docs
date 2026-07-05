@@ -15,4 +15,18 @@ using(FileSystem fileSystem = TagBites.IO.Ftp.FtpFileSystem.Create(address, user
 ```
 > Remember to use `using` statement or call `Dispose` method after usage.
 
+By default, connections use explicit FTPS (`FtpEncryptionMode.Explicit`) with 3 retry attempts and auto-passive data connections. For full control over the connection (encryption mode, retry attempts, custom port, proxy, etc.), pass a `FtpConnectionConfig` - which extends FluentFTP's `FtpConfig` - instead:
+```csharp
+var connectionConfig = new FtpConnectionConfig(address, username, password)
+{
+    EncryptionMode = FtpEncryptionMode.None,
+    RetryAttempts = 5
+};
+
+using(FileSystem fileSystem = TagBites.IO.Ftp.FtpFileSystem.Create(connectionConfig))
+{
+    // ... using like standard file system
+}
+```
+
 Full implementation on github: [TagBites.IO.Ftp](https://github.com/TagBites/TagBites.IO.Ftp).

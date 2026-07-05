@@ -4,9 +4,17 @@ This file system provides implementation for file system based on the ZIP file s
 
 ## Usage
 ```csharp
-var fullName = "C:/test";
+var fullName = "C:/test.zip";
 
 using(FileSystem fileSystem = TagBites.IO.Zip.ZipFileSystem.Create(fullName))
+{
+    // ... using like standard file system
+}
+```
+
+If the `.zip` file does not exist yet, it is created on first write. An optional `password` parameter encrypts/decrypts the archive content:
+```csharp
+using(FileSystem fileSystem = TagBites.IO.Zip.ZipFileSystem.Create(fullName, "secret"))
 {
     // ... using like standard file system
 }
